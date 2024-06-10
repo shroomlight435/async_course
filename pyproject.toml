@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "async-cource"
+version = "0.1.0"
+description = ""
+authors = ["ivan_stand_l <ivansyn2013@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "async_cource"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
